@@ -21,7 +21,7 @@ body {
     background-color: #414833;
     height: 100%;
     width: 50%;
-    border-radius: 100px 0px 100px 0px;
+    border-radius: 70px 0px 70px 0px;
     margin-left: 25%;
     border: solid 3px #d3d3d3 ;
 
@@ -136,8 +136,7 @@ a:hover{
 
 .cadastro{
     font-size: 11px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .cadastro a{
     text-decoration: none;
@@ -152,6 +151,11 @@ a:hover{
 
 @media screen and (max-width: 589px ){
 
+    .conteudo{
+        width: 55%;
+        border-radius: 70px 0px 70px 0px;
+    }
+    
     .name-login{
         margin-left: 35%;
     }
@@ -178,11 +182,15 @@ a:hover{
     .insta{
         width: 10%;
     }
-
     .cadastro{
-        margin: 5px;
-        margin-left: 50%;
+        font-size: 11px;
+        margin-left: 55px;
+        
     }
+
+   
+
+   
 
 
     
