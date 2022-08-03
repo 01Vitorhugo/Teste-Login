@@ -7,6 +7,7 @@
 
 body {
     background-color: #283618;
+    background-image: url(fundo.jpg);
 
 }
 
@@ -14,7 +15,6 @@ body {
     height: 400px;
     margin-top: 100px;
     width: 100%;
-
 }
 
 .conteudo {
@@ -23,7 +23,7 @@ body {
     width: 50%;
     border-radius: 70px 0px 70px 0px;
     margin-left: 25%;
-    border: solid 3px #d3d3d3 ;
+    border: solid  black 3px ;
 
 }
 .name-login{
@@ -32,7 +32,7 @@ body {
     text-align: left;
     margin-left: 50px;
     margin-top: 20px;
-    color: rgb(158, 154, 154);
+    color: black;
 
 }
 
@@ -43,20 +43,20 @@ body {
 }
 
 .input1 p {
-    color: rgb(161, 161, 161);
+    color: black;
     height: 30px;
 
 }
 
 .e-mail {
     background-color: transparent;
-    border-bottom: solid rgb(161, 161, 161) 3px;
+    border-bottom: solid black 3px;
     border-radius: 0px 0px 90px;
     margin-left: 10px;
     height: 20px;
     margin-top: 15px;
     width: 30%;
-    color: #d3d3d3;
+    color: black;
 }
 
 .input2 {
@@ -67,18 +67,18 @@ body {
 
 .input2 p {
     margin-top: 30px;
-    color: rgb(161, 161, 161);
+    color: black;
 }
 
 .senha {
     background-color: transparent;
-    border-bottom: solid rgb(161, 161, 161) 3px;
+    border-bottom: solid black 3px;
     border-radius: 0px 0px 90px;
     margin-left: 15px;
     height: 20px;
     margin-top: 10px;
     width: 30%;
-    color: #d3d3d3;
+    color:black;
 }
 
 .botao {
@@ -93,18 +93,17 @@ body {
     width: 20%;
     cursor: pointer;
     background-color: transparent;
-    color:  rgb(161, 161, 161);
+    color: black;
     font-size: 15px;
 }
 .botao1:hover{
     border-radius: 30px;
     border: solid #000000 2px;
-    background-color: beige;
+    background-color: rgb(255, 255, 25);
     color: #000000;
 }
 .redes{
     display: flex;
-    
     text-align: center;
     margin-top: 25px;
 }
@@ -116,7 +115,7 @@ body {
     margin: 5px;
 }
 .whats a{
-    color: #283618;
+    color: black;
 }
 .insta{
     cursor: pointer;
@@ -125,7 +124,7 @@ body {
     margin: 5px;
 }
 .insta a{
-    color: #283618;
+    color: black;
 }
 
 /* TODOS LINKS VAI TER ESSA FUNÇÃO SE NAO FOR MUDADO..*/
@@ -140,7 +139,7 @@ a:hover{
 }
 .cadastro a{
     text-decoration: none;
-    color: #000000;
+    color: black;
 }
 .cadastro a:hover{
     color: #d3d3d3;
@@ -150,10 +149,14 @@ a:hover{
 /*RESPONSIVO */
 
 @media screen and (max-width: 589px ){
+    body{
+        background-image: url(fundo2.jpg);
+    }
 
     .conteudo{
         width: 55%;
         border-radius: 70px 0px 70px 0px;
+        background-color: transparent;
     }
     
     .name-login{
